@@ -3,7 +3,7 @@
 var imagem
 
 async function criarPersonagens() {
-    const endPoint = 'https://apisimpsons.fly.dev/api/personajes?limit=20&page=1';
+    const endPoint = 'https://apisimpsons.fly.dev/api/personajes?limit=680&page=1';
     const response = await fetch(endPoint);
     const imagens = await response.json();
     return imagens.docs;

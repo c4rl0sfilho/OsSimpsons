@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    height: 150px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    /* background-color: #f2cc2b ; */
+    background-image: url(./img/landspace.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+}
+main img {
+    height: 915px;
+    width: 1663px;
+    background-size: cover;
+    z-index: -1;
+    
+}
+.logo{
+    margin-left: 1vw;
+    display: flex;
+    gap: 2vw;
+}
+.logo img{
+height: 14vh;
+width: 10vw;
+}
+.title{
+    background-color: #EAD520;
+    height: 8vh;
+    width: 19vw;
+    border-radius: 36px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.title a{
+    font-size: 3.3vw;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 3%;
+}
+.search-container{
+    height: 8vh;
+    width: 18vw;
+    background-color: #EAD520;
+    border-radius: 18px;
+    margin-right: 2vw;
+}
+.search{
+        background-color: #EAD520;
+        height: 8vh;
+        width: 18vw;
+        font-size: 3.5vw;
+        padding-left: 1vw;
+    
+}

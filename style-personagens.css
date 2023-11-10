@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main";
+    grid-template-rows: 15vh 1fr;
+} */
+header{
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+        margin-top: 0.5vh;
+        margin-left: 0.5vw;
+        display: flex;
+        gap: 2vw;
+}
+
+.logo img{
+    height: 14vh;
+    width: 10vw;
+}
+.title{
+        background-color: #EAD520;
+        height: 8vh;
+        width: 19vw;
+        border-radius: 36px;
+        margin-top: 4vh;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+}
+.title a{
+        font-size: 3.3vw;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        margin: 3%;
+}
+.search-container{
+    height: 8vh;
+    width: 18vw;
+    margin-top: 4vh;
+    background-color: #EAD520;
+    border-radius: 18px;
+    margin-right: 2vw;
+}
+.search{
+        background-color: #EAD520;
+        height: 8vh;
+        width: 18vw;
+        font-size: 3.5vw;
+        padding-left: 1vw;
+    
+}
+main{
+        background-image: url(./img/sky_simpsons.avif);
+        width: 100vw;
+        height: 85vh;
+        background-size: cover;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+.container-main{
+    width: 100vw;
+    height: 100vh;
+    margin: 4%;
+    display: grid;
+    grid-template-areas: 
+    "img img img img";
+    padding: 4vh 4vw;
+    gap: 10vh;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.container-main img{
+    background-color: #DCBA2A;
+    border-radius: 8px;
+    height: 50vh;
+        width: 15vw;
+        box-shadow: 4px 4px 10px 5px black;
+    }
+
+    .container-main img:hover{
+       -ms-transform: scale(1.1);
+       transform: scale(1.1);
+        transition: 0.7s;
+    }
+
+    .info{
+        background-color: #EAD520;
+        position: absolute;
+        z-index: +1;
+        height: 57vh;
+        width: 30vw;
+        top: 0;
+        left: 35vw;
+        border-radius: 18px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-inline: 1vw;
+        padding-block: 23vh;
+        visibility: hidden;
+    }
+    .mais_info{
+        background-color: #EAD520;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+    }
+
+    .nome h4{
+        font-size: 2vw;
+    }
+    .info_imagem img{
+        background-color: #DCBA2A;
+        height: 45vh;
+        width: 10vw;
+        border-radius: 18px;
+    }
+
+    .maisMais_info{
+        background-color: #DCBA2A;
+        border-radius: 18px;
+    }
+
+    h5{
+        background-color: #b29927;
+        border-radius: 18px;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1vw;
+    }
+
+    .historia h5{
+        font-size: 0.7vw;
+        height: 20vh;
+        padding-inline: 1vw;
+    }
+
+    button{
+        width: 2vw;
+        height: 2vh;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-block: 2vh;
+    }
+
+    .mostrar{
+        visibility: visible;
+    }
